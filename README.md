@@ -1,11 +1,11 @@
 # chords2latex
 
 Converts chords from:
-- ultimate-guitar.com
-- pisnicky-akordy.cz
-- and many other sources using the same notation
+- [ultimate-guitar.com](https://ultimate-guitar.com)
+- [pisnicky-akordy.cz](https://pisnicky-akordy.cz)
+- (and many other sources using the same notation)
 
-to  the notation used in the [songs](http://songs.sourceforge.net) LaTeX package.
+to the notation used in the [songs](http://songs.sourceforge.net) LaTeX package.
 
 ## Usage
 
@@ -24,7 +24,7 @@ to  the notation used in the [songs](http://songs.sourceforge.net) LaTeX package
 ## Example
 
 
-- input (just a snippet, see `sample.txt` for the full version)
+- input (just a snippet, see [sample.txt](sample.txt) for the full version)
 ```
 [Verse 1]
   C       Bm7          E7              Am     Am/G
@@ -32,7 +32,7 @@ Yesterday   all my troubles seemed so far away
 F       G7                    C           C/B Am   D7       F C C
 Now it looks as though they're here to stay oh I believe in yesterday
 ```
-- convert
+- command for converting the file
 ```bash
 ./chords2latex.py sample.txt -n "Yesterday" -a "The Beatles" -o yesterday.tex -e
 ```
@@ -54,3 +54,5 @@ The script works the best when used together with my [songbook](https://github.c
 
 
 I made the script for my personal use and I provide no guarantees whatsoever that it's gonna work in your case. I hope it will help, though ;) 
+
+![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)
